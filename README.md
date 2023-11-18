@@ -20,6 +20,3 @@ Mais voici comment installer ce CTF manuellement :
 > git clone https://github.com/Hack-Oeil/EJS_INJECTION_CVE_2022.git
 
 > cd EJS_INJECTION_CVE_2022
-
-
-CVE-2020-7699
