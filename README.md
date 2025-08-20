@@ -1,14 +1,19 @@
-# CTF EJS - EJS Template Injection
+# CTF Web Serveur - Directory Traversal
 
 ## Présentation du CTF 
-**ID** 37 dans **les CTFs de Cyrhades**
+**ID** 3 dans **les CTFs de Cyrhades**
 
-Ce CTF est basé sur une CVE de 2022, vous devrez exploiter cette injection pour trouver le flag.
+
+Trouvez le FLAG de validation en vous "balladant" dans les répertoires et fichiers du serveur.
+
+
+
+Dans ce challenge l'objectif est de récupérer le flag qui se trouve dans un fichier de type .env de l'application.
+Mais vous devez trouver l'emplacement de ce fichier, pour info nous sommes sur un site codé en NodeJS.
 
 
 ## Aperçu
-![infos/capture.jpg](infos/capture.jpg)
-
+![presentation/assets/images/capture.jpg](presentation/assets/images/capture.jpg)
 
 
 -----------
@@ -17,6 +22,7 @@ Ce CTF est basé sur une CVE de 2022, vous devrez exploiter cette injection pour
 Vous n'utilisez pas l'application **les CTFs de Cyrhades** ? C'est dommage !
 Mais voici comment installer ce CTF manuellement :
 
-> git clone https://github.com/Hack-Oeil/EJS_INJECTION_CVE_2022.git
+> git clone https://github.com/Hack-Oeil/NODE_DIRECTORY_TRAVERSAL.git
 
-> cd EJS_INJECTION_CVE_2022
+> cd NODE_DIRECTORY_TRAVERSAL && docker compose up
+
