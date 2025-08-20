@@ -8,7 +8,7 @@ Trouvez le FLAG de validation en vous "balladant" dans les répertoires et fichi
 
 
 
-Dans ce challenge l'objectif est de récupérer le flag qui se trouve dans un fichier de type .env de l'application.
+Dans ce challenge l'objectif est de récupérer le flag qui se trouve dans le répertoire de l'application.
 Mais vous devez trouver l'emplacement de ce fichier, pour info nous sommes sur un site codé en NodeJS.
 
 
